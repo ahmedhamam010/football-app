@@ -18,7 +18,7 @@ const Champion = () => {
         <div className='d-flex justify-content-between align-items-center'>
           <div>
             <img src="/assests/images/flag.png" alt="flag-img" className='rounded-circle' />
-            <span className='fw-medium champion-name mx-3'>
+            <span className='fw-medium champion-name mx-2 mx-md-3'>
             الأرجنتين - الدوري الأرجنتيني - الدرجة الثالثة
             </span>
           </div>
