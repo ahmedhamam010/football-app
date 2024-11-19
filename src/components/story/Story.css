@@ -1,0 +1,11 @@
+.story-container{
+    text-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-wrap: nowrap;
+    color:  #6C6C89;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 15px;
+}

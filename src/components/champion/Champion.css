@@ -1,0 +1,43 @@
+.champion-container{
+    background: #EBEBEF;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+}
+  
+.matches-number{
+    color: #6C6C89;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.champion-name{
+    font-size: 14px;
+}
+
+.matches{
+    border-radius: 0 0 8px 8px;
+    border: 1px solid hsla(0, 0%, 59.2%, .3);
+    padding: 1rem;
+}
+
+.club-name{
+    font-size: 14px;
+}
+
+.match-date{
+    background: #EBEBEF;
+    padding: 5px 10px;
+    border-radius: 17px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.match-border{
+    border-radius: 8px 8px 0 0 !important;
+}

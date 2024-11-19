@@ -1,0 +1,99 @@
+.home-page{
+  border-radius: 24px;
+  background: #F7F7F8;
+}
+
+.gray-color{
+  color: #6C6C89;
+}
+
+
+
+@media (min-width: 769px) {
+  .hideScroll {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+.hideScroll {
+  padding-bottom: 10px;
+}
+.hideScroll::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  
+}
+.hideScroll::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.05);
+  
+}
+.hideScroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #fff;
+ 
+}
+
+@media (max-width: 768px) {
+  .hideScroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .hideScroll::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: transparent;
+  }
+  .hideScroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: transparent;
+  }
+  .search-container input{
+    font-size: 10px;
+  }
+  .day-item{
+    margin-left: 10px !important;
+    font-size: 13px;
+  }
+  .days-container{
+    justify-content: center;
+  }
+  .champion-name {
+    font-size: 10px;
+  }
+}
+
+.toggle-icon{
+  border-radius: 50.667px;
+  background: #EBEBEF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 2px solid #d7d7d7;
+  height: 40px;
+  cursor: pointer;
+}
+
+.toggle-icon img{
+  margin-right: .8rem;
+}
+
+.search-filter{
+  flex:1
+}
+
+.active-day{
+  color: #000;
+  font-weight: 500;
+  border-bottom: 3px solid #ED1C24;
+  padding-bottom: 5px ;
+}
+
+.day-item{
+  margin-left: 1.6rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
